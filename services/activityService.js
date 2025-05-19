@@ -1,20 +1,12 @@
 const logger = require("../logger");
 const { throwError } = require("../helpers/errorUtil");
-const {
-  returnMessage,
-  validateEmail,
-  passwordValidation,
-} = require("../utils/utils");
-const statusCode = require("../messages/statusCodes.json");
-const bcrypt = require("bcryptjs");
-const { User_Details, User, Activity } = require("../models");
+
+const { User, Activity } = require("../models");
 const { Op } = require("sequelize");
 
 class ActivityService {
-  // Add User Details
   listLeaderBoard = async (payload) => {
     try {
-      console.log(payload, "wewegege");
       // Parse scroll params (limit & offset)
       const limit = parseInt(payload.limit) || 10;
       const offset = parseInt(payload.offset) || 0;
@@ -89,7 +81,7 @@ class ActivityService {
         }
       }
 
-      // 3. Convert map to array for sorting
+      // Convert map to array for sorting
       let leaderboard = Object.entries(userPointsMap).map(
         ([user_id, totalPoints, performed_at]) => ({
           user_id: Number(user_id),
@@ -99,10 +91,10 @@ class ActivityService {
         })
       );
 
-      // 4. Sort descending by totalPoints
+      // Sort descending by totalPoints
       leaderboard.sort((a, b) => b.totalPoints - a.totalPoints);
 
-      // 5. Assign ranks with ties
+      // Assign ranks with ties
       let currentRank = 0;
       let previousPoints = null;
       let skippedRanks = 0;
@@ -117,7 +109,7 @@ class ActivityService {
         return { ...entry, rank: currentRank };
       });
 
-      // 6. Scroll load: slice by offset and limit
+      // Scroll load: slice by offset and limit
       const pagedLeaderboard = leaderboard.slice(offset, offset + limit);
 
       return {
