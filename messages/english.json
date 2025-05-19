@@ -1,0 +1,6 @@
+{
+  "activity": {
+    "leaderBoardFetched": "Leader board data fetched."
+  },
+  "default": { "default": "Something went wrong." }
+}

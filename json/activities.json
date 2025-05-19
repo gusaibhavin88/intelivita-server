@@ -1,0 +1,20 @@
+[
+  {
+    "user_id": 1,
+    "performed_at": "2025-05-18T10:30:00Z",
+    "points": 20,
+    "activityType": "walking"
+  },
+  {
+    "user_id": 2,
+    "performed_at": "2025-05-18T11:00:00Z",
+    "points": 30,
+    "activityType": "cycling"
+  },
+  {
+    "user_id": 3,
+    "performed_at": "2025-05-18T11:30:00Z",
+    "points": 25,
+    "activityType": "running"
+  }
+]
