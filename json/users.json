@@ -1,11 +1,12 @@
 [
-  {
-    "full_name": "Alice Johnson"
-  },
-  {
-    "full_name": "Bob Smith"
-  },
-  {
-    "full_name": "Charlie Brown"
-  }
+  { "full_name": "Alice Johnson" },
+  { "full_name": "Bob Smith" },
+  { "full_name": "Charlie Brown" },
+  { "full_name": "Diana Miller" },
+  { "full_name": "Ethan Williams" },
+  { "full_name": "Fiona Davis" },
+  { "full_name": "George Wilson" },
+  { "full_name": "Hannah Clark" },
+  { "full_name": "Ian Thompson" },
+  { "full_name": "Julia Martinez" }
 ]

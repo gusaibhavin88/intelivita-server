@@ -1,20 +1,152 @@
 [
   {
     "user_id": 1,
-    "performed_at": "2025-05-18T10:30:00Z",
-    "points": 20,
+    "performed_at": "2025-05-18T08:00:00Z",
+    "points": 15,
     "activityType": "walking"
   },
   {
     "user_id": 2,
-    "performed_at": "2025-05-18T11:00:00Z",
+    "performed_at": "2025-05-18T08:30:00Z",
+    "points": 20,
+    "activityType": "cycling"
+  },
+  {
+    "user_id": 1,
+    "performed_at": "2025-05-18T09:00:00Z",
+    "points": 10,
+    "activityType": "yoga"
+  },
+  {
+    "user_id": 3,
+    "performed_at": "2025-05-18T09:30:00Z",
+    "points": 25,
+    "activityType": "running"
+  },
+  {
+    "user_id": 4,
+    "performed_at": "2025-05-18T10:00:00Z",
     "points": 30,
     "activityType": "cycling"
   },
   {
-    "user_id": 3,
-    "performed_at": "2025-05-18T11:30:00Z",
-    "points": 25,
+    "user_id": 2,
+    "performed_at": "2025-05-18T10:30:00Z",
+    "points": 12,
+    "activityType": "walking"
+  },
+  {
+    "user_id": 5,
+    "performed_at": "2025-05-18T11:00:00Z",
+    "points": 18,
     "activityType": "running"
+  },
+  {
+    "user_id": 6,
+    "performed_at": "2025-05-18T11:30:00Z",
+    "points": 22,
+    "activityType": "swimming"
+  },
+  {
+    "user_id": 3,
+    "performed_at": "2025-05-18T12:00:00Z",
+    "points": 20,
+    "activityType": "yoga"
+  },
+  {
+    "user_id": 4,
+    "performed_at": "2025-05-18T12:30:00Z",
+    "points": 28,
+    "activityType": "running"
+  },
+  {
+    "user_id": 7,
+    "performed_at": "2025-05-18T13:00:00Z",
+    "points": 16,
+    "activityType": "cycling"
+  },
+  {
+    "user_id": 8,
+    "performed_at": "2025-05-18T13:30:00Z",
+    "points": 35,
+    "activityType": "walking"
+  },
+  {
+    "user_id": 1,
+    "performed_at": "2025-05-18T14:00:00Z",
+    "points": 40,
+    "activityType": "hiking"
+  },
+  {
+    "user_id": 6,
+    "performed_at": "2025-05-18T14:30:00Z",
+    "points": 10,
+    "activityType": "yoga"
+  },
+  {
+    "user_id": 2,
+    "performed_at": "2025-05-18T15:00:00Z",
+    "points": 22,
+    "activityType": "running"
+  },
+  {
+    "user_id": 9,
+    "performed_at": "2025-05-18T15:30:00Z",
+    "points": 24,
+    "activityType": "walking"
+  },
+  {
+    "user_id": 10,
+    "performed_at": "2025-05-18T16:00:00Z",
+    "points": 18,
+    "activityType": "cycling"
+  },
+  {
+    "user_id": 5,
+    "performed_at": "2025-05-18T16:30:00Z",
+    "points": 20,
+    "activityType": "yoga"
+  },
+  {
+    "user_id": 3,
+    "performed_at": "2025-05-18T17:00:00Z",
+    "points": 27,
+    "activityType": "running"
+  },
+  {
+    "user_id": 7,
+    "performed_at": "2025-05-18T17:30:00Z",
+    "points": 19,
+    "activityType": "hiking"
+  },
+  {
+    "user_id": 8,
+    "performed_at": "2025-05-18T18:00:00Z",
+    "points": 33,
+    "activityType": "walking"
+  },
+  {
+    "user_id": 9,
+    "performed_at": "2025-05-18T18:30:00Z",
+    "points": 21,
+    "activityType": "cycling"
+  },
+  {
+    "user_id": 10,
+    "performed_at": "2025-05-18T19:00:00Z",
+    "points": 29,
+    "activityType": "running"
+  },
+  {
+    "user_id": 1,
+    "performed_at": "2025-05-18T19:30:00Z",
+    "points": 26,
+    "activityType": "swimming"
+  },
+  {
+    "user_id": 6,
+    "performed_at": "2025-05-18T20:00:00Z",
+    "points": 14,
+    "activityType": "yoga"
   }
 ]
