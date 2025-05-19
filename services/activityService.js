@@ -23,7 +23,7 @@ class ActivityService {
       const where = {};
       const now = new Date();
 
-      if (filter === "day") {
+      if (filter === "Day") {
         // Activities for today
         const startOfDay = new Date(
           now.getFullYear(),
@@ -39,7 +39,7 @@ class ActivityService {
           [Op.gte]: startOfDay,
           [Op.lt]: endOfDay,
         };
-      } else if (filter === "month") {
+      } else if (filter === "Month") {
         // Activities for this month
         const startOfMonth = new Date(now.getFullYear(), now.getMonth(), 1);
         const startOfNextMonth = new Date(
@@ -51,7 +51,7 @@ class ActivityService {
           [Op.gte]: startOfMonth,
           [Op.lt]: startOfNextMonth,
         };
-      } else if (filter === "year") {
+      } else if (filter === "Year") {
         // Activities for this year
         const startOfYear = new Date(now.getFullYear(), 0, 1);
         const startOfNextYear = new Date(now.getFullYear() + 1, 0, 1);
